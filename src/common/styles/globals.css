@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ad {
+  @apply relative bg-[#4E1C99] w-full h-[90px] bg-bubble-pattern bg-no-repeat bg-cover flex justify-center gap-1  items-start pt-4 font-medium text-white text-baseSize leading-[20.57px];
+}
+
+.text-gradient {
+  /* position: absolute;
+  width: 632px;
+  height: 146px;
+  left: 80px;
+  top: 316px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 73px;
+  display: flex;
+  align-items: center; */
+
+  background: linear-gradient(
+    90.37deg,
+    #6953d3 26.98%,
+    #8566f1 49.72%,
+    #a14eee 72.46%,
+    #f98085 95.21%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
