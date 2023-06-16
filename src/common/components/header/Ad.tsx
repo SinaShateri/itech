@@ -19,7 +19,7 @@ const Ad = () => {
       />
       <div className='flex relative'>
         <Image
-          className='absolute -bottom-8 -left-[60px] z-0'
+          className='absolute -bottom-8 -left-[60px] z-40'
           src='/triangle.svg'
           alt='triangle'
           width={60}

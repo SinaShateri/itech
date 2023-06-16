@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Landing = () => {
   return (
-    <section className='relative flex mt-[50px]'>
+    <section className='flex mt-[50px] px-[80px]'>
       <div>
         <Link
           className='text-baseSize font-medium text-primary p-3 bg-primary/[.12] w-fit rounded-[5px]'
@@ -72,12 +72,14 @@ const Landing = () => {
           </div>
         </div>
       </div>
+      
       <Image
-        className='absolute top-0 -right-5'
+        className='z-0'
         src='/section-image.png'
         alt='section image'
         width={570}
         height={670}
+        priority
       />
     </section>
   );
