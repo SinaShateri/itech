@@ -6,7 +6,8 @@
     "dev": "next dev --turbo -p 7575",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "ncu": "ncu -i --format group"
   },
   "dependencies": {
     "@types/node": "20.3.1",

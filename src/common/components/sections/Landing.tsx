@@ -72,9 +72,8 @@ const Landing = () => {
           </div>
         </div>
       </div>
-      
       <Image
-        className='z-0'
+        className='z-0 mt-12'
         src='/section-image.png'
         alt='section image'
         width={570}
