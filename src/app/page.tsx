@@ -1,13 +1,15 @@
 import Creative from '@/common/components/sections/Creative';
 import Sponsors from '@/common/components/sections/Features';
-import Landing from '@/common/components/sections/Landing';
+import Hero from '@/common/components/sections/Hero';
+import Security from '@/common/components/sections/Security';
 
 const HomePage = () => {
   return (
     <>
-      <Landing />
+      <Hero />
       <Sponsors />
       <Creative />
+      <Security />
     </>
   );
 };

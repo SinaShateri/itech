@@ -48,7 +48,7 @@ const features = [
 
 const Sponsors = () => {
   return (
-    <section className='relative flex flex-col items-center -translate-y-36 select-none'>
+    <section className='relative flex flex-col items-center select-none -translate-y-36'>
       <h5 className='text-[30px] font-semibold text-[#333] z-30 mt-44'>
         <span className='text-primary'>25K+ Installation </span> and featured on
       </h5>
@@ -69,7 +69,7 @@ const Sponsors = () => {
       <h3 className='font-bold text-[40px] z-30 mt-3'>
         Awesome <span className='text-gradient'>Features</span>
       </h3>
-      <div className='z-50 grid grid-cols-5 justify-items-center w-full'>
+      <div className='z-50 grid w-full grid-cols-5 justify-items-center'>
         {features.map((feature, index) => (
           <div
             key={index}
@@ -86,21 +86,21 @@ const Sponsors = () => {
         ))}
       </div>
       <Image
-        className='w-full absolute top-0 z-20'
+        className='absolute top-0 z-20 !w-screen'
         src='/wave-1.svg'
         alt='wave'
         width={1283}
         height={920}
       />
       <Image
-        className='absolute -top-0 right-0 z-10'
+        className='absolute right-0 z-10 -top-0'
         src='/wave-2.svg'
         alt='wave'
         width={840}
         height={506}
       />
       <Image
-        className='absolute -bottom-16 -left-7 z-40 translate-x-1/2'
+        className='absolute z-40 translate-x-1/2 -bottom-16 -left-7'
         src='/circles.svg'
         alt='wave'
         width={700}

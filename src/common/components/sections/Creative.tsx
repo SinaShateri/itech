@@ -1,5 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import GradientText from '../UI/GradientText';
+import SectionTitle from '../UI/SectionTitle';
 
 const Creative = () => {
   return (
@@ -17,10 +19,10 @@ const Creative = () => {
         >
           Notero-Easy Note App
         </Link>
-        <h3 className='text-[40px] text-[#333] font-bold leading-[48px] mt-2'>
+        <SectionTitle>
           The Noter For <br />
-          <span className='text-gradient'> Creative</span>
-        </h3>
+          <GradientText>Creative</GradientText>
+        </SectionTitle>
         <p className='text-baseSize font-medium leading-[30px] text-[#444]/[.6] text-justify py-[35px] w-[455px]'>
           Stay focused and productive with a clean clutter-free note space. the
           flexible ways to organize your notes: hashtags , nested notebooks ,

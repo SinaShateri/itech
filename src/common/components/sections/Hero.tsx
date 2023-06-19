@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-const Landing = () => {
+const Hero = () => {
   return (
     <section className='flex mt-[50px] px-[80px]'>
       <div>
@@ -27,10 +27,10 @@ const Landing = () => {
             href='/'
           >
             <Image
-              src='/Apple-Logo.svg'
-              alt='Apple Logo'
-              width={30}
-              height={30}
+            src='/Apple-Logo.svg'
+            alt='Apple Logo'
+            width={30}
+            height={30}
             />
             <span className='h-[24px] w-[2px] bg-white' />
             <span className='text-[20px]'>Download App</span>
@@ -42,7 +42,7 @@ const Landing = () => {
               width={58}
               height={56}
             />
-            <p className='text-baseSize font-medium'>
+            <p className='font-medium text-baseSize'>
               View <br /> Promotion
             </p>
           </Link>
@@ -61,6 +61,7 @@ const Landing = () => {
           </div>
           <div className='flex items-center gap-[9px] ml-24 mt-[50px]'>
             <Image
+              className='w-auto'
               src='/wallet-icon.svg'
               alt='wallet icon'
               width={41}
@@ -84,4 +85,4 @@ const Landing = () => {
   );
 };
 
-export default Landing;
+export default Hero;
